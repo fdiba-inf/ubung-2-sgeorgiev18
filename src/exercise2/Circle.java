@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Circle {
   public static void main(String[] args) {
 
-    System.out.print("Choose value for the radius: ");
     Scanner input = new Scanner(System.in);
     int r = input.nextInt();
     double Pi = (3.14);

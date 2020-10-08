@@ -7,7 +7,7 @@ public class EvenOrOddNumber {
 
   public static void main(String[] args) {
 
-    System.out.print("Type a number: ");
+    
     Scanner input = new Scanner(System.in);
 
     int a = input.nextInt();
@@ -15,10 +15,10 @@ public class EvenOrOddNumber {
     int b = (a % 2);
 
     if (b == 0) {
-      System.out.print("Even");
+      System.out.print("Number is even");
     }
     else if (b > 0) {
-      System.out.print("Odd");
+      System.out.print("Number is odd");
 
     }
     
