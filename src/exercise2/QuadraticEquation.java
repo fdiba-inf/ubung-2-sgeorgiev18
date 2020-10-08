@@ -30,9 +30,7 @@ public class QuadraticEquation {
              if (a < 0||a > 0) {
                if (D >= 0) {
                  
-                 System.out.print(x1 );
-                 
-                 System.out.println( x2);
+                 System.out.println( x1 + ", " + x2);                         
                } else {
                  System.out.println("Imaginary values");
                }
