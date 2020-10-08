@@ -7,7 +7,7 @@ public class Circle {
 
     Scanner input = new Scanner(System.in);
     int r = input.nextInt();
-    double Pi = (3.14));
+    double Pi = (3.14);
     double C = (2 * Pi * r);
     double A = (Pi * r * r);
     System.out.print("Circumference: ");
